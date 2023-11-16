@@ -8,7 +8,7 @@ import App from './App';
 import Portfolio from './pages/Portfolio';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import About from './pages/About Me';
+import About from './pages/About';
 import Resume from './pages/Resume';
 
 // Define the accessible routes, and which components respond to which URL

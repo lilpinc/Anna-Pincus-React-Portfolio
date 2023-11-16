@@ -6,7 +6,9 @@ function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return (
-    <ul className="nav nav-tabs">
+    <>
+    <ul className="nav navbar-expand-lg bg-info-subtle py-3 fs-5">
+    <li className="nav-item px-5 pt-2 fs-4">Anna-Britta Pincus</li>
       <li className="nav-item">
         <Link
           to="/"
@@ -54,6 +56,7 @@ function NavTabs() {
         </Link>
       </li>
     </ul>
+    </>
   );
 }
 

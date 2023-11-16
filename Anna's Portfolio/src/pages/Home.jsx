@@ -1,7 +1,9 @@
+
+
 export default function Home() {
     return (
-      <div>
-        <h1>Home Page</h1>
+      <div class="">
+        <h1 class="text-center mt-5">Welcome!</h1>
         <p>
       {/* home information */}
         </p>
