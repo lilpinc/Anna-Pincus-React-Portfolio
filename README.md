@@ -27,6 +27,8 @@ Being a web developer means being part of a community. We all need a place to sh
 
 ### Live URL
 
+https://comforting-mandazi-408426.netlify.app/
+
 ### Screenshots
 
 ![Screenshot](<public/Screen Shot 2023-11-19 at 5.50.56 PM.png>)
