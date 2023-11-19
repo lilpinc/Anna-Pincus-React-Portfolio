@@ -18,7 +18,7 @@ export default function Footer() {
               <AiOutlineLinkedin />
             </li>
           </a>
-          <a href="https://www.instagram.com/britta_filt3r/">
+          <a href="https://www.instagram.com/abps.fc/">
             <li className="logo">
               <FaInstagram />
             </li>
