@@ -61,7 +61,7 @@
   display: flex;
   align-items: center;
   padding: 5vh;
-  height: 100vh;
+  height: 100%;
 }
 
 .biography {
@@ -83,11 +83,7 @@
   background: var(--background);
   background-repeat: none;
   background-size: cover;
-  height: 100vh;
-  
-}
-.resumecontent{
-  margin: 10vh;
+  padding-bottom: 10vh;
 }
 
 .liststyle {
@@ -130,13 +126,13 @@
   background: var(--background);
   background-repeat: none;
   background-size: cover;
-  height: 100vh;
+  padding-bottom: 10vh;
 }
 
 .contactinfo {
   display: flex;
-  justify-content: space-around;
-  margin-top: 15vh;
+  justify-content: space-between;
+  margin: 10vh;
   align-items: center;
 }
 
@@ -151,16 +147,21 @@
 .form:hover{
   filter: brightness(100%);
 }
-
+.row{
+  margin: 10px;
+}
 .contactme {
   border-radius: 5px;
-  height: 28vh;
   padding: 20px;
   border: 1px solid black;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 5px;
   text-align: center;
-  
+}
+#formbtn {
+ border-radius: 5px;
+ background-color: #83bad6;
+ width: 10vh;
 }
 .question{
   font-weight: bold;
@@ -168,7 +169,6 @@
 .thanks{
   padding-top: 8px;
 }
-
 .contactlist {
   list-style-type: none;
 }
@@ -183,6 +183,8 @@
   background-color: rgb(80, 80, 80);
   color: white;
   justify-content: space-evenly;
+  padding-left:2vw;
+  border-top: 1px solid black;
 }
 
 .main{
@@ -190,7 +192,7 @@
   width: 95%;
   margin: auto;
   margin-top: 10vh;
-  height:100vh;
+  height:100%;
   margin-bottom: 10vh;
 
 }
@@ -199,7 +201,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap:wrap;
-  transform: translateX(15px);
+  transform: translateX(-20px);
 }
 .work a {
   text-decoration: none;
@@ -221,7 +223,7 @@
   background-color:rgb(161, 248, 79) ;
 }
 .card{
-  width: 31.4vw;
+  width: 33vw;
   height: 250px;
   border:solid black 1px;
   margin: 15px;
@@ -256,3 +258,119 @@ article h2 {
   padding-left: 1vw;
   padding-top: 1vh;
 }
+#githublink {
+  background-color: white;
+}
+.logo{
+  cursor: pointer;
+  list-style: none;
+  font-size: 40px;
+  color: white;
+  display: inline-block;
+  margin: 2vh;
+
+}
+.logos{
+  display: flex;
+  
+}
+.logo:hover {
+  color: #83bad6;
+  transition: .3s ease;
+}
+
+@media screen and (max-width: 992px){
+  .work{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    transform: translateX(-14vw);
+    align-items: center;
+  }
+  .biography{
+    margin-bottom: 10vh;
+  }
+  .work h5{height:3.5vh;
+    width: 13vw;
+    height: 7.0vh;
+    font-size: 1.5vw;
+  } 
+  .card{
+    width: 60vw;
+    height: 250px;
+}
+.aboutsection{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+}
+
+@media screen and (max-width: 768px){
+  .main {
+    display:block;
+    width: 95%;
+    margin-left: 10px;
+    text-align: center;
+}
+.work h5{height:3.5vh;
+  width: 15vw;
+  height: 7.0vh;
+  font-size: 2vw;} 
+.work{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+  align-items: center;
+}
+.card{
+  width: 62vw;
+  height: 250px;
+}  
+.github{
+  padding-right: 58vw;
+ }
+ .liststyle {
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  font-size: 18px;
+  transform: translateX(5vw);
+}
+.front-back {
+  width: 60vw;
+  margin-bottom: 5vh;
+}
+.contactinfo{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.form {
+  margin-bottom: 10vh;
+}
+}
+
+@media screen and (max-width: 567px){
+  .work{
+    flex-direction: column;
+  }
+  .work h5{height:3.5vh;
+  font-size:10px;} 
+  .card{
+    width: 62vw;
+    height: 250px;
+  }
+  .work h5{height:3.5vh;
+    width: 15vw;
+    height: 7.0vh;
+    font-size: 2vw;
+  }
+  .liststyle {
+    transform: translateX(1vw);
+  } 
+} 

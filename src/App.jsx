@@ -3,6 +3,10 @@
 import { Outlet } from 'react-router-dom';
 import Nav from './components/NavTabs';
 import './App.css'
+import Footer from './components/Footer';
+
+
+
 
 function App() {
 
@@ -13,10 +17,8 @@ function App() {
       <main>
         <Outlet />
       </main>
-      <footer className="footer">
-        Made by Anna Britta Pincus 
-      </footer>
-    </div>
+      <Footer />
+      </div>
   );
 }
 
