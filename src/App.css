@@ -48,6 +48,7 @@
   background: var(--background);
   background-repeat: none;
   background-size: cover;
+  padding-bottom: 10vh;
 }
 
 .title {
