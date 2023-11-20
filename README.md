@@ -31,7 +31,7 @@ https://comforting-mandazi-408426.netlify.app/
 
 ### Screenshots
 
-![Screenshot](<public/images/me.png>)
+![Screenshot](<public/images/aboutme.png>)
 ![Screenshot](<public/images/portfolio.png>)
 ![Screenshot](<public/images/contact.png>)
 ![Screenshot](<public/images/proficiencies.png>)
