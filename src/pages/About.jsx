@@ -13,7 +13,7 @@ export default function About() {
 
         <p>By embracing an active and balanced lifestyle, I strive to create a life for myself that is full of unique and memorable experiences. It is my hope to find joy in all that I do, both in work and my extracurricular activities.</p>
         </article>
-        <img class="m-0 mx-5" className="mypicture" src="/me.jpg" alt="climbing pic" width='400px' />
+        <img class="m-0 mx-5" className="mypicture" src="/images/me.jpg" alt="climbing pic" width='400px' />
         </section>
       </div>
     );

@@ -1,5 +1,5 @@
 :root {
-  --background: url("../public/pexels-abdullah-ghatasheh-1631677.jpg")
+  --background: url("../public/images/pexels-abdullah-ghatasheh-1631677.jpg")
 }
 
 .navbar {
@@ -238,20 +238,20 @@
   transform: scale(1.015);
 }
 #firstwork {
-  background-image:url("../public/tummy.png"); 
+  background-image:url("../public/images/tummy.png"); 
   
 }
 #work2{
-  background-image:url("../public/SVG.png"); 
+  background-image:url("../public/images/SVG.png"); 
 }
 #work3{
-  background-image:url("../public/weather.png"); 
+  background-image:url("../public/images/weather.png"); 
 }
 #work4{
-  background-image:url("../public/anatomy.png"); 
+  background-image:url("../public/images/anatomy.png"); 
 }
 #work5{
-  background-image:url("../public/workday.png"); 
+  background-image:url("../public/images/workday.png"); 
 }
 article h2 {
   margin-left: 6vw;
