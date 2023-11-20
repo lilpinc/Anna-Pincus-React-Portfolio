@@ -31,10 +31,10 @@ https://comforting-mandazi-408426.netlify.app/
 
 ### Screenshots
 
-![Screenshot](<public/Screen Shot 2023-11-19 at 5.50.56 PM.png>)
-![Screenshot](<public/Screen Shot 2023-11-19 at 5.51.06 PM.png>)
-![Screenshot](<public/Screen Shot 2023-11-19 at 5.51.09 PM.png>)
-![Screenshot](<public/Screen Shot 2023-11-19 at 5.51.23 PM.png>)
+![Screenshot](<public/me.png>)
+![Screenshot](<public/portfolio.png>)
+![Screenshot](<public/contact.png>)
+![Screenshot](<public/proficiencies.png>)
 
 
 ### Questions?

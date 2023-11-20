@@ -238,20 +238,20 @@
   transform: scale(1.015);
 }
 #firstwork {
-  background-image:url("../public/Screen\ Shot\ 2023-08-14\ at\ 11.02.50\ PM.png"); 
+  background-image:url("../public/tummy.png"); 
   
 }
 #work2{
-  background-image:url("../public/Screen\ Shot\ 2023-09-06\ at\ 1.18.12\ PM.png"); 
+  background-image:url("../public/SVG.png"); 
 }
 #work3{
-  background-image:url("../public/Screen\ Shot\ 2023-08-08\ at\ 3.43.14\ PM.png"); 
+  background-image:url("../public/weather.png"); 
 }
 #work4{
-  background-image:url("../public/Screen\ Shot\ 2023-07-27\ at\ 3.58.26\ PM.png"); 
+  background-image:url("../public/anatomy.png"); 
 }
 #work5{
-  background-image:url("../public/Screen\ Shot\ 2023-08-01\ at\ 11.38.47\ AM.png"); 
+  background-image:url("../public/workday.png"); 
 }
 article h2 {
   margin-left: 6vw;
