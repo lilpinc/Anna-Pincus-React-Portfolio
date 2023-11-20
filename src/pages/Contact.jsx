@@ -16,11 +16,15 @@ export default function Contact() {
     const inputType = target.name;
     const inputValue = target.value;
 
+    if (inputValue.length === 0) {
+      alert ("username, email, and message are required");
+    }
+
     if (inputType === "user_email") {
       setEmail(inputValue);
     } else if (inputType === "user_name") {
       setUserName(inputValue);
-    } else if (inputType === "user_message"){
+    } else if (inputType === "user_message") {
       setMessage(inputValue);
     }
   };
@@ -28,11 +32,11 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
     if (!validateEmail(email) || !name) {
-      alert ("username or email is invalid")
+      alert("username or email is invalid")
       return;
     }
     if (!message) {
-      alert ("Message is required.");
+      alert("Message is required.");
       return;
     }
     emailjs.sendForm('service_bwotmzn', 'template_q1tjkf6', form.current, 'YDOvY-Lk7P8bWkk1r')
