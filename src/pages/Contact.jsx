@@ -20,7 +20,7 @@ export default function Contact() {
       setEmail(inputValue);
     } else if (inputType === "user_name") {
       setUserName(inputValue);
-    } else {
+    } else if (inputType === "user_message"){
       setMessage(inputValue);
     }
   };
