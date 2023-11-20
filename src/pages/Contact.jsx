@@ -31,7 +31,7 @@ export default function Contact() {
       alert ("username or email is invalid")
       return;
     }
-    if (!setMessage(message)) {
+    if (!message) {
       alert ("Message is required.");
       return;
     }
