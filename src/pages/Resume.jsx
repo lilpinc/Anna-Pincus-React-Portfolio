@@ -5,7 +5,7 @@ export default function Resume() {
     <div className="resume">
       <h1 className="title">Resume</h1>
       <section className="resumecontent">
-        <p class="text-center mt-5">Download my <button className="resumebtn"><a className="resumelink" href="/images/Anna-Britta-Pincus.pdf" download>Resume</a></button></p>
+        <p className="text-center mt-5">Download my <button className="resumebtn"><a className="resumelink" href="src/assets/images/resume/Anna-Britta-Pincus.pdf" download>Resume</a></button></p>
         <div className="liststyle">
           <article className="front-back">
             <p className="proficiencies">Front-end Proficiencies</p>

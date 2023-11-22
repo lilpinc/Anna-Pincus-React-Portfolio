@@ -1,5 +1,7 @@
+// import emailjs so that email goes to correct email address
 import emailjs from '@emailjs/browser';
 import React, { useRef, useState } from 'react';
+// import validate email from helper.js
 import { validateEmail } from "../utils/helpers.js";
 
 export default function Contact() {
@@ -16,10 +18,10 @@ export default function Contact() {
     const inputType = target.name;
     const inputValue = target.value;
 
-    if (inputValue.length === 0) {
+   if (inputValue.length === 0) {
       alert ("username, email, and message are required");
     }
-
+   
     if (inputType === "user_email") {
       setEmail(inputValue);
     } else if (inputType === "user_name") {
@@ -53,28 +55,27 @@ export default function Contact() {
   };
 
   return (
-
     <div className="contact">
       <h1 className="title">Contact Me</h1>
       <div className="contactinfo">
         <form action="" class="form" ref={form} onSubmit={sendEmail}>
-          <div class="row">
+          <div className="row">
             <label for="name">Your name:</label>
             <input type="text" onChange={handleInputChange} id="name" value={name} name="user_name" placeholder='name' required />
           </div>
-          <div class="row">
+          <div className="row">
             <label for="email">Your email:</label>
             <input type="email" onChange={handleInputChange} id="email" value={email} name="user_email" placeholder='email' required />
           </div>
-          <div class="row">
+          <div className="row">
             <label for="message">Your message:</label>
             <textarea rows="4" onChange={handleInputChange} id="message" value={message} name="user_message" placeholder='write message' />
           </div>
-          <div class="row">
+          <div className="row">
             <button onClick={sendEmail} id="formbtn" type="submit" value="Send" >Submit</button>
           </div>
         </form>
-        <section class="mx-5 contactme">
+        <section className="mx-5 contactme">
           <p className="thanks">Thank you for checking out my website!</p>
           <p className="question">Want to get into contact? Reach me at the following:</p>
           <ul className="contactlist">

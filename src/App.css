@@ -1,5 +1,5 @@
 :root {
-  --background: url("../public/images/pexels-abdullah-ghatasheh-1631677.jpg")
+  --background: url("/src/assets/images/readme/pexels-abdullah-ghatasheh-1631677.jpg")
 }
 
 .navbar {
@@ -224,6 +224,11 @@
   padding: 5px;
   background-color:rgb(161, 248, 79) ;
 }
+/* change link color on hover */
+.work h5:hover {
+  background-color: yellow;
+  transition: .3s ease;
+}
 .card{
   width: 33vw;
   height: 250px;
@@ -238,20 +243,20 @@
   transform: scale(1.015);
 }
 #firstwork {
-  background-image:url("../public/images/tummy.png"); 
+  background-image:url("/src/assets/images/portfolio/tummy.png"); 
   
 }
 #work2{
-  background-image:url("../public/images/SVG.png"); 
+  background-image:url("/src/assets/images/portfolio/SVG.png"); 
 }
 #work3{
-  background-image:url("../public/images/weather.png"); 
+  background-image:url("/src/assets/images/portfolio/weather.png"); 
 }
 #work4{
-  background-image:url("../public/images/anatomy.png"); 
+  background-image:url("/src/assets/images/portfolio/anatomy.png"); 
 }
 #work5{
-  background-image:url("../public/images/workday.png"); 
+  background-image:url("/src/assets/images/portfolio/workday.png"); 
 }
 article h2 {
   margin-left: 6vw;
@@ -259,6 +264,12 @@ article h2 {
 .github {
   padding-left: 1vw;
   padding-top: 1vh;
+  font-size: 40px;
+}
+/* change link color on hover */
+.github:hover {
+  color: blue;
+  transition: .3s ease;
 }
 #githublink {
   background-color: white;
@@ -276,11 +287,12 @@ article h2 {
   display: flex;
   
 }
+/* change link color on hover */
 .logo:hover {
   color: #83bad6;
   transition: .3s ease;
 }
-
+/* make the website fit all screen sizes well */
 @media screen and (max-width: 992px){
   .work{
     display: flex;
@@ -375,5 +387,4 @@ article h2 {
   .liststyle {
     transform: translateX(1vw);
   } 
-} 
-
+}
