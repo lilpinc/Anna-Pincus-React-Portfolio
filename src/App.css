@@ -247,7 +247,7 @@
   
 }
 #work2{
-  background-image:url("/src/assets/images/portfolio/SVG.png"); 
+  background-image:url("/src/assets/images/portfolio/Horiseon.png"); 
 }
 #work3{
   background-image:url("/src/assets/images/portfolio/weather.png"); 
@@ -257,6 +257,9 @@
 }
 #work5{
   background-image:url("/src/assets/images/portfolio/workday.png"); 
+}
+#work6{
+  background-image:url("/src/assets/images/portfolio/resume.png"); 
 }
 article h2 {
   margin-left: 6vw;
