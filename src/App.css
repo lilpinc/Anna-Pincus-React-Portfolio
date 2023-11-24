@@ -295,6 +295,14 @@ article h2 {
   color: #83bad6;
   transition: .3s ease;
 }
+
+.error {
+  display: flex; 
+  justify-content: center;
+}
+.error-text{
+  
+}
 /* make the website fit all screen sizes well */
 @media screen and (max-width: 992px){
   .work{

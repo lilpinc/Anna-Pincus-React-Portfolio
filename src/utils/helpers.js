@@ -1,4 +1,4 @@
 export function validateEmail(email) {
-    var re = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
+    var re = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
     return re.test(String(email).toLowerCase());
   }
