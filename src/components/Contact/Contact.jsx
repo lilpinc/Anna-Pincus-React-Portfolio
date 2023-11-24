@@ -34,7 +34,7 @@ export default function Contact() {
     const { name, value } = e.target;
     if (name === "user_email") {
       setEmail(value);
-      // if the value is validated, do not show the error message
+      // if the value is validated, do not show the error message, if it does not match, show error message
       if (value === "" || !validateEmail(value)) {
         setEmail("");
         setErrorMessage(
@@ -76,6 +76,7 @@ export default function Contact() {
       .then((result) => {
         console.log(result.text);
         alert("message sent!")
+        // should clear out inputs, will need to fix because not functional at the moment
         setUserName("");
         setMessage("");
         setEmail("");

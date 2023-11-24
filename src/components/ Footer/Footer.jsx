@@ -2,7 +2,7 @@ import { VscGithubAlt } from "react-icons/vsc";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaInstagram } from "react-icons/fa";
 
-
+// add links to github, linkedin and instagram
 export default function Footer() {
     return (
         <footer className="footer">

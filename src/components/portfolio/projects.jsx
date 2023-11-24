@@ -1,7 +1,7 @@
 import { VscGithubAlt } from "react-icons/vsc";
 
 export default function Projects() {
-
+// add links to github and deployed work
     return (
 <section class="work">
     <article class="card" id="firstwork">
