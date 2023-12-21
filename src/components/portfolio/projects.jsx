@@ -9,8 +9,8 @@ export default function Projects() {
         <a className="github" href="https://github.com/serinochloe/tummy-yummys"><VscGithubAlt id="worken" target="_blank"/></a>
     </article>
     <article class="card" id="work2">
-        <h5><a href="https://lilpinc.github.io/Horiseon-Refactor/" target="_blank">SVG Logo Maker</a></h5>
-        <a className="github" href="https://github.com/lilpinc/Horiseon-Refactor"><VscGithubAlt id="workto" target="_blank"/></a>
+        <h5><a href="https://omnihealth2-555ec02f6b9c.herokuapp.com//" target="_blank">OmniHealth Records</a></h5>
+        <a className="github" href="https://github.com/shockeyj9/Omnihealth-Records"><VscGithubAlt id="workto" target="_blank"/></a>
     </article>
     <article class="card" id="work3">
         <h5><a href="https://lilpinc.github.io/Weather-Dashboard/" target="_blank">Weather Dashboard</a></h5>

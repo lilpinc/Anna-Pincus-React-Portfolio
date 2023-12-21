@@ -1,4 +1,4 @@
-import Projects from '../portfolio/projects';
+import Projects from './projects';
 // import projects component to display all projects
 
 export default function Portfolio() {
